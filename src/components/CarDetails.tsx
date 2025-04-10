@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Car } from "@/types/car";
 import { Heart, Fuel, Gauge, Users, Settings, Calendar, Palette } from "lucide-react";
+import Image from "next/image";
 
 interface CarDetailsProps {
   car: Car;
@@ -52,7 +53,7 @@ export function CarDetails({ car, onClose, onWishlistToggle, isInWishlist }: Car
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-4">
-            <img
+            <Image
               src={car.imageUrl || "/api/placeholder/500/300"}
               alt={`${car.brand} ${car.model}`}
               className="w-full h-60 object-cover rounded-md"
