@@ -12,7 +12,7 @@ Welcome to the **Car Finder App**, a web application built using **Next.js** tha
 
 ## Demo
 
-You can try out the app by visiting [https://your-demo-link.com](https://your-demo-link.com).
+You can try out the app by visiting [https://car-finder-brown.vercel.app/](https://your-demo-link.com).
 
 ## Getting Started
 
@@ -30,4 +30,34 @@ Make sure you have the following installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/car-finder-app.git
+   git clone https://github.com/Rakshit-Rawat/car-finder.git
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd car-finder
+
+3. Install dependencies:
+
+   ```bash
+   npm install 
+
+
+4. To start the development server, run:
+
+   ```bash
+   npm run dev
+
+
+## Technologies Used
+
+- **Next.js:** React-based framework for building server-side rendered applications.
+
+- **React:** JavaScript library for building user interfaces.
+
+- **Tailwind CSS:** Utility-first CSS framework for fast UI development.
+
+- **TypeScript (optional):** Type safety for JavaScript, if used.
+
+- **Vercel (optional):** Platform for hosting and deploying Next.js apps.
+

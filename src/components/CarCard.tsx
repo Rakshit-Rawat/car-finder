@@ -16,7 +16,7 @@ export function CarCard({ car, onClick, onWishlistToggle, isInWishlist }: CarCar
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md hover:scale-[1.01] group">
       <div className="relative">
-        <img
+        <Image
           src={car.imageUrl || "/api/placeholder/400/240"}
           alt={`${car.brand} ${car.model}`}
           className="w-full h-48 object-cover cursor-pointer group-hover:brightness-105 transition-all"
