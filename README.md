@@ -12,7 +12,7 @@ Welcome to the **Car Finder App**, a web application built using **Next.js** tha
 
 ## Demo
 
-You can try out the app by visiting [https://car-finder-brown.vercel.app/](https://your-demo-link.com).
+You can try out the app by visiting [https://car-finder-brown.vercel.app/](https://car-finder-brown.vercel.app/).
 
 ## Getting Started
 
